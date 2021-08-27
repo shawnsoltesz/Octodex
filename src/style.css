@@ -13,20 +13,24 @@ ul {
   list-style: none;
   padding: 0;
 }
+header {
+  display: flex;
+}
 header ul.left {
   display: flex;
   padding-top: 1rem;
-  margin-right: auto;
-  justify-content: space-around;
+  padding-bottom: 1rem;
+  justify-content: space-between;
   background-color: tomato;
 }
-header ul.left.B {
-  padding-top: 1rem;
+header ul.left.A {
+  padding-top: -1rem;
 }
 header ul.right {
   color: rgb(63, 63, 63);
-  display: flex;
   margin-left: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   /* background-color: white; */
   justify-content: flex-end;
   background-color: green;
@@ -74,8 +78,8 @@ main ul li.octodex-cat {
 
 main ul li img.cat {
   display: flex;
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
   background-color: rgb(255, 255, 255);
 }
 main ul li img.artist {
@@ -85,4 +89,9 @@ main ul li img.artist {
 }
 main ul li p.name {
   font-weight: bold;
+}
+
+footer {
+  padding-top: 1rem;
+  color: rgb(63, 63, 63);
 }
