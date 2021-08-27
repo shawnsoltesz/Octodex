@@ -13,18 +13,23 @@ ul {
   list-style: none;
   padding: 0;
 }
-
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+}
 header ul {
   display: flex;
   justify-content: center;
 }
-
 main ul li img.cat {
   display: flex;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
 }
 main ul li img.artist {
   height: 25px;
   width: 25px;
+}
+main ul li p.name {
+  font-weight: bold;
 }
