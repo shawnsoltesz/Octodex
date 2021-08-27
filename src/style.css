@@ -13,13 +13,38 @@ ul {
   list-style: none;
   padding: 0;
 }
+header ul.left {
+  display: flex;
+  padding-top: 0.5 rem;
+  margin-right: 20rem;
+  justify-content: space-between;
+  background-color: tomato;
+}
+header ul.right {
+  color: rgb(63, 63, 63);
+  display: inline;
+  /* background-color: white; */
+  align-content: space-between;
+  background-color: green;
+  padding-top: 1rem;
+}
+header ul li a {
+  color: rgb(63, 63, 63);
+  text-decoration-line: none;
+}
+header ul li a.B {
+  font-weight: bold;
+}
+header ul.right {
+  padding-right: 0.5rem;
+  margin-left: auto;
+  display: flex;
+}
 main ul {
   display: flex;
   flex-wrap: wrap;
-}
-header ul {
-  display: flex;
-  justify-content: center;
+  background-color: whitesmoke;
+  padding-left: 0.5rem;
 }
 main ul li img.cat {
   display: flex;
@@ -32,39 +57,4 @@ main ul li img.artist {
 }
 main ul li p.name {
   font-weight: bold;
-}
-
-header ul {
-  background-color: tomato;
-}
-
-header ul li {
-  background-color: yellowgreen;
-  align-content: space-between;
-  justify-content: space-around;
-  padding-top: 0.5rem;
-}
-
-header ul li a {
-  background-color: turquoise;
-  text-decoration-color: darkgrey;
-}
-
-header ul li a.A,
-header ul li a.A,
-header ul li a.B,
-header ul li a.C,
-header ul li a.D {
-  margin-right: 2rem;
-  justify-content: space-between;
-}
-
-header ul li a.E,
-header ul li a.F {
-  margin-right: 2rem;
-  justify-content: space-between;
-}
-
-p.octodex {
-  background-color: darksalmon;
 }
