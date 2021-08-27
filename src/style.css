@@ -33,3 +33,38 @@ main ul li img.artist {
 main ul li p.name {
   font-weight: bold;
 }
+
+header ul {
+  background-color: tomato;
+}
+
+header ul li {
+  background-color: yellowgreen;
+  align-content: space-between;
+  justify-content: space-around;
+  padding-top: 0.5rem;
+}
+
+header ul li a {
+  background-color: turquoise;
+  text-decoration-color: darkgrey;
+}
+
+header ul li a.A,
+header ul li a.A,
+header ul li a.B,
+header ul li a.C,
+header ul li a.D {
+  margin-right: 2rem;
+  justify-content: space-between;
+}
+
+header ul li a.E,
+header ul li a.F {
+  margin-right: 2rem;
+  justify-content: space-between;
+}
+
+p.octodex {
+  background-color: darksalmon;
+}
