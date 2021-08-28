@@ -77,8 +77,7 @@ main ul li.octodex-cat {
   flex-wrap: wrap;
 }
 
-main ul li a.cat,
-main ul li img.cat {
+main ul li .cat img {
   display: flex;
   height: 250px;
   width: 250px;
