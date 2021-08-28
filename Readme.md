@@ -23,7 +23,7 @@ Recreate this website with 12 - 16 cats: https://octodex.github.com/
                 ><img
                   class="image"
                   src="[preview image]"
-                  alt="[Artist name]
+                  alt="[Artist name]"
               /></a>
             </div>
           </div>
