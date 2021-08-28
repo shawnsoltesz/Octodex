@@ -20,7 +20,7 @@ header ul.left {
   display: flex;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  justify-content: space-between;
+  justify-content: flex-start;
   background-color: tomato;
 }
 header ul.left.A {
@@ -66,9 +66,11 @@ main ul li {
   margin-left: 0.2rem;
   margin-right: 0.2rem;
   flex-direction: column;
+  background-color: lightseagreen;
 }
+
 main ul li.octodex-cat {
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   border: rgb(203, 202, 202);
   border-width: 2px;
   border-style: solid;
@@ -82,15 +84,29 @@ main ul li img.cat {
   width: 350px;
   background-color: rgb(255, 255, 255);
 }
+main ul li p.name {
+  font-weight: bold;
+}
 main ul li img.artist {
   display: flex;
   height: 25px;
   width: 25px;
 }
-main ul li p.name {
-  font-weight: bold;
+
+main ul li div.image-footer {
+  display: flex;
+}
+main ul li div.image-footer div.number-name {
+  display: flex;
+  justify-content: flex-start;
 }
 
+main ul li div.image-footer div.artist-image {
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-end;
+  padding-top: 0.75rem;
+}
 footer {
   padding-top: 1rem;
   color: rgb(63, 63, 63);
