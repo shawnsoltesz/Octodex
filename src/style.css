@@ -66,11 +66,10 @@ main ul li {
   margin-left: 0.2rem;
   margin-right: 0.2rem;
   flex-direction: column;
-  background-color: lightseagreen;
 }
 
 main ul li.octodex-cat {
-  /* background-color: rgb(255, 255, 255); */
+  background-color: rgb(255, 255, 255);
   border: rgb(203, 202, 202);
   border-width: 2px;
   border-style: solid;
