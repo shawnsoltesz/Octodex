@@ -21,7 +21,7 @@ header ul.left {
   padding-top: 1rem;
   padding-bottom: 1rem;
   justify-content: flex-start;
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 header ul.left.A {
   padding-top: -1rem;
@@ -33,7 +33,7 @@ header ul.right {
   padding-bottom: 1rem;
   /* background-color: white; */
   justify-content: flex-end;
-  background-color: green;
+  /* background-color: green; */
   padding-top: 1rem;
 }
 header ul li a {
@@ -77,15 +77,27 @@ main ul li.octodex-cat {
   flex-wrap: wrap;
 }
 
+main ul li a.cat,
 main ul li img.cat {
   display: flex;
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 250px;
   background-color: rgb(255, 255, 255);
 }
-main ul li p.name {
-  font-weight: bold;
+main ul li p.number {
+  align-content: center;
 }
+
+main ul li a.name {
+  font-weight: bold;
+  color: black;
+  text-decoration-line: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+main ul li a.artist,
 main ul li img.artist {
   display: flex;
   height: 25px;
