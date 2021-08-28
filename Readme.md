@@ -1,9 +1,10 @@
-**Assignment:**
+\*\*Assignment:
 
 Recreate this website with 12 - 16 cats: https://octodex.github.com/
 
-**Adding new cat template:**
+\*\*Adding [new cat] template:
 
+<li class="octodex-cat">
 <a class="cat" href="[link to solo cat image on Github]"
             ><img 
               src="[preview image]"
@@ -12,7 +13,7 @@ Recreate this website with 12 - 16 cats: https://octodex.github.com/
 
           <div class="image-footer">
             <div class="number-name">
-              <p class="number">[Octocat #:]</p>
+              <p class="number">[#__:]</p>
 
               <a class="name" href="[link to solo cat image on Github]"
                 >"[Octocat name]"</a
@@ -27,3 +28,5 @@ Recreate this website with 12 - 16 cats: https://octodex.github.com/
               /></a>
             </div>
           </div>
+
+</li>
