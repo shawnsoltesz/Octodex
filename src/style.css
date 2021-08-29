@@ -79,8 +79,8 @@ main ul li.octodex-cat {
 
 main ul li .cat img {
   display: flex;
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
   background-color: rgb(255, 255, 255);
 }
 main ul li p.number {

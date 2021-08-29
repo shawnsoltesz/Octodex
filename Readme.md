@@ -14,7 +14,7 @@ Recreate this website with 12 - 16 cats: https://octodex.github.com/
 
           <div class="image-footer">
             <div class="number-name">
-              <p class="number">[#__:]</p>
+              <p class="number">#[__]: &nbsp;</p>
 
               <a class="name" href="[link to solo cat image on Github]"
                 >"[Octocat name]"</a
