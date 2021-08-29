@@ -5,6 +5,7 @@ Recreate this website with 12 - 16 cats: https://octodex.github.com/
 \*\*Adding [new cat] template:
 
 <li class="octodex-cat">
+
 <a class="cat" href="[link to solo cat image on Github]"
             ><img 
               src="[preview image]"
