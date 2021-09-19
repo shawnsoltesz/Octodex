@@ -5,8 +5,7 @@ html {
   height: 100%;
 }
 body {
-  margin: 0;
-  min-height: 100%;
+  margin: 2px;
 }
 ul {
   margin: 0;
@@ -64,6 +63,9 @@ main ul {
   display: flex;
   flex-wrap: wrap;
   background-color: whitesmoke;
+  min-height: 100%;
+  width: auto;
+  max-width: 1600px;
 }
 main ul li {
   display: flex;
@@ -77,6 +79,7 @@ main ul li {
   margin-left: 0.1rem;
   margin-right: 0.1rem;
   flex-direction: column;
+  width: auto;
 }
 main ul li.octodex-cat {
   flex-wrap: wrap;
@@ -128,12 +131,10 @@ main ul li div.image-footer div.artist-image {
   padding-top: 0.75rem;
 }
 footer {
+  border-top: 0.5px solid rgb(189, 186, 186);
   padding-top: 1rem;
   padding-left: 1rem;
-  color: rgb(63, 63, 63);
+  color: #24292e;
 }
-@media all and (max-width: 767px) {
-  .backtogithub {
-    display: none;
-  }
-}
+
+.display{}
