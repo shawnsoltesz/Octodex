@@ -20,7 +20,6 @@ header {
   color: #24292e;
   line-height: 1.5;
   align-content: center;
-  padding-top: 16px;
   margin-right: auto;
   margin-left: auto;
   border-bottom: 0.5px solid rgb(109, 107, 107);
@@ -29,8 +28,8 @@ header {
 }
 header ul.left {
   display: flex;
-  align-content: center;
-  padding-top: 0.5rem;
+  align-items: center;
+  /* padding-top: 1rem; */
   justify-content: flex-start;
   margin-right: 24px;
 }
@@ -44,13 +43,18 @@ header ul.right {
 header ul li a {
   color: rgb(63, 63, 63);
   text-decoration-line: none;
-  margin-bottom: 1rem;
   align-content: center;
   margin-right: 24px;
 }
+
 header ul li a.A {
   align-content: center;
 }
+a.A img {
+  margin: 0;
+  padding: 0;
+}
+
 header ul li a.B {
   font-weight: bold;
 }
@@ -61,6 +65,7 @@ header ul.right {
 }
 main ul {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   background-color: whitesmoke;
   min-height: 100%;
@@ -137,4 +142,5 @@ footer {
   color: #24292e;
 }
 
-.display{}
+.display {
+}
